@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 960px;
+  padding: 30px;
+  background-color: #D5D3D3;
+  position: relative;
+  left:80px;
+  top:80px;
+}
+
+.menu{
+  border: dotted 5px yellow;
+  background-color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.columnauno{
+  border: dotted 5px red;
+  float: left;
+  width: 290px;
+  background-color: pink;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  height: 450px;
+  overflow: hidden;
+  padding: 5px;
+
+}
+
+.columnados{
+  border: dotted 5px blue;
+  float: right;
+  width: 590px;
+  background-color: violet;
+  margin-left: 10px;
+  text-align: left;
+  height: 450px;
+  overflow: hidden;
+  padding: 5px;
+
+
+}
+
+
+.pie{
+  border: dotted 5px green;
+  clear: both;
+  background-color: blue;
+  text-align: center;
+
+}

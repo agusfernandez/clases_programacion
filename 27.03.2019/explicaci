@@ -1,0 +1,86 @@
+clase de nav
+
+> barra de navegacion
+
+<nav>
+<ul>
+  <li><a></a></li>
+</ul>
+</nav>
+
+recomendaciones dependiendo
+
+displaY. inline-block;
+float
+
+tamaños de ancho (neh-- puede q si depende del texto)
+
+hacer que las etiquetas a se comporten como etiqueta de bloque, podemos apliccarle opciones de box-model
+
+no ponerle flotacion a ul (probar)
+
+>eliminar viñetas > 
+ul{
+list-style:none;
+margin:0;
+paddin:0;
+}
+
+a {
+text-decoration:none;
+}
+
+Ejercicio:
+responsive
+
+etqieta meta
+empezar desdeel celu
+inspeccionar > dev tools >320 x 
+
+list style: decimal/ circular etc
+
+>psedoselectores / before y after / aplicarloa  un selector que ya existe
+son psedoselectores que nos permite insertar contenido desde le css
+desde cdd le podria poner a  un h2 antes o despies lo que yo quiera
+
+h1::before{
+	content:"Capitulo de "
+}
+
+antes del contenido que se ponga en hhtml >h1 >va a pasar lo que dice en before
+
+podemos insertar jpgs
+
+iconos
+
+.caja::before{
+	content:url(../images/icono.jpg);
+}
+
+elemento de after y begore son elementos de lonea por lo que podemos hacer tipo bloque y que quede al lado
+
+display:inline-block;
+
+
+
+responsive>
+1) referenciar al logo > class
+margin auto > solo se aplica si eselemento de bloque / las imagenes son imagenes de bloque por eso es un display: block;
+
+2) menu / modo celular> libreria de css 
+https://ionicons.com/v2 >copiar el link
+http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css > @import url()
+
+se lepuede cambiar el color y hacer otras cosas que en una iamgen no es tan facil
+
+3) toggle > alternar la navegacion	
+
+uan vez terminado elcelu > break point 650px
+
+> el boton de enla tablet como es la misma disposicion del desktop lo hacemos porcentual:
+180px (total del boton de ancho ) / 1200 (ancho total del container) : eso me va  dar el procentual del boton para el tamaño medio / tablet
+ese cambio hay q darselo al li ya que es el que contiene al a que ya le dimos los estilos
+
+OVERFLOWWM----- FLOAT
+
+

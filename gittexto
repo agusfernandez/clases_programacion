@@ -1,0 +1,76 @@
+git
+
+>consola
+pasam tu repositorio
+>terminal / cnsola / CMD
+
+Github
+wondows > powershell ( terminal de windows)
+linux (
+
+>comandos
+
+ls ( te muestr todas las carpetas en donde estas parado) / dir (windows)
+cd ..(me lleva a un nivel mas o a disco duro Carpeta a donde vot / cd ../ se va para atras )
+cd+carpeta
+mkdir (make a directory / creacion de carpeta) / mkdir git
+touch / crear carpeta > no sirvepara windows
+rm archivo.txt / elimina archivos ESPECIFICAR CUAL
+mv archivo txt index.html ( cambiar el nombre de una archivo<9
+sudo
+
+>git es la tecbologia / me permite hacer control de versiones en diversos versiones / se puede ver lo que dce en al consola los errores / control de versiones
+>github es dodnde guardo los archivos
+
+>branches o ramas /se puede vovler atras >universos paralelos/ estas mezclando dos realidades en donde vas probando diversas realidades y pruebas
+
+>insalar el repositrio
+
+git init
+
+> vinvularlo con el repositorio
+para que sea todo globl y no escribirlo siempre (compu propia) 
+git config --global user.email "agustina.fernandez91@gmail.com" > si hago esto solo pongo git init por cada repositorio
+
+hay que decirle a git cada vez que tenigo un nuevo archivo y agregarlo a git enel repositorio
+x
+
+git add (espacio)
+cmmit >hito historico / cada ves q havemos un commit hcmos un hito historico en donde pueda regresar cuando nosotros queramos / si me gusto la version de la semana pasaday no tengo manera de regresar enonces puedo volver > cada commit genera un numero quelo tendria q guardar para poder usarlo por si lo necesito
+
+cuanado subolos datos al repositorio
+>creo el repositorio
+>tomo la url
+>pongo el codigo
+>git push origin master (hay qye comitear antes de hacer esto / master es la rama pp de mi proyecto > yo decido si l cambio que haga se hacer por la rama pp o por alguna otra
+
+
+>carpeta git siempre esta oculta
+
+para bajar losarchivo el respositorio no hayq  poner download sino que hayq ue ir a la consola 
+too la url del repositor > consola
+voy a dondequiero
+
+git clone url / descarga el repositorio a mi compu / meclono el repositio/ el clone es una sola vez
+git pull origin maser / solo me bajo lo neuvo que se hizo ua que elrepositor lo baje ya
+
+te bajas el respositiro
+git config user.name ""
+git config user.email ""
+git add .
+git status
+// hice cambios
+git commit -m "cambios"
+
+
+git push origin master / sub los neucos cambios
+
+hago un cambio
+git status
+git add
+git commit -m "cambio"
+git pull origin master
+
+
+
+

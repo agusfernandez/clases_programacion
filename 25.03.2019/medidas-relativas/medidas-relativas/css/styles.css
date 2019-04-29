@@ -1,0 +1,70 @@
+@import url('normalize.css');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(233, 233, 233);
+	font-family: monospace;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	border: dashed 5px red;
+	overflow: hidden;
+}
+
+.box01 {
+	height: 300px;
+	background-color: rgb(107, 96, 164);
+	color: #FFF;
+}
+
+.box02 {
+	height: 300px;
+	background-color: rgb(141, 175, 127);
+	color: #FFF;
+}
+
+.box03 {
+	height: 300px;
+	background-color: rgb(196, 222, 68);
+	color: #FFF;
+}
+
+.initial {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(82, 147, 11);
+}
+
+.second {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(147, 23, 11);
+}
+
+
+@media (min-width: 575px) {
+	.box01, .box02 {
+		float: left;
+		width: 50%;
+	}
+
+	.box03 {
+		clear: both;
+	}
+}
+
+@media (min-width: 900px) {
+	.box01, .box02, .box03 {
+		width: 33.33%;
+	}
+
+	.box03 {
+		clear: none;
+		float: left;
+	}
+}

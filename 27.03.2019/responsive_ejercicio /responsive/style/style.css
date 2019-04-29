@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/*en el width esta a un 100% para que ocupe toda la caja y se va adapatando: lo del 20% : seria poner 20vw indicando el 20% de 100 */
+
+.cabecera{
+	width: 100vw;
+	height: 20vw;
+	background-color: orange;
+	border: dotted 1px white;
+	margin: auto;
+}
+
+/*3 boxes*/
+
+.contenedor{
+  max-width: 1200px;
+  border: dotted 2px red;
+  margin: auto;
+  overflow: hidden;
+  /*el margin auto me permite centrarlo automaticamente en la pantalla*/
+}
+
+.box1,
+.box2,
+.box3{
+  float: left;
+}
+
+.box1{
+  width: 20.83%;
+  background-color: yellow;
+  border: dotted 2px white;
+	padding: 5px;
+}
+
+.box2{
+  width: 66.66%;
+  background-color: red;
+  border: dotted 2px white;
+  margin-left:2.083%;
+  margin-right:2.083%;
+	padding: 5px;
+
+}
+
+.box3{
+  width:8.33%;
+  background-color: pink;
+  border: dotted 2px white;
+	padding: 5px;
+}
+
+h2{
+	font-size: 2.3em;
+}
+
+p{
+	font-size: 1.08em;
+}
+
+strong{
+	font-size: 1.25em;
+}
+
+/*esto esta puesto para que cuando llege a 575 se acomode
+*/
+@media (max-width: 575px) {
+	.box1, .box2 {
+		float: left;
+		width: 50%;
+	}
+
+	.box3 {
+		clear: both;
+	}
+}

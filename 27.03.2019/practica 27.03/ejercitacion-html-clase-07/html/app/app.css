@@ -1,0 +1,150 @@
+@import url('app/normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../images/bg-body.png)
+}
+/*hereda el color de la etiqueeta padre- evitar repetir los colores en todos lados*/
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul,
+ol{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+
+img{
+  width: 100%;
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+}
+/*una vez que especifico lo fijo empiezo porel logo a estabilizar
+display:block; me permite enbloquear un elemento, ya que las imagenes son semibloque
+nos aparecio el icono delmenu sin seleccionarlo porqu ene el thml ya estaba ingresado el id elegido*/
+
+.logo{
+  border-radius: 100%;
+  width: 50%;
+  max-width: 180px;
+  display: block;
+  margin:15px auto 30px;
+  box-shadow: 0 0 10px #000000;
+}
+/*es text align porq funciona como una tipografia / margin:auto me lo centra en la mitad y el width es 40 porque sino me pinta toda la linea en negro*/
+.toggle-nav{
+  background-color: #000;
+  color: white;
+  display: block;
+  width: 40px;
+  padding: 10px 0;
+  text-align: center;
+  margin:0 auto 15px;
+}
+
+/*le tengo q dar elestilo al a y pesarlo a bloque */
+
+.main-nav a,
+.main-footer a{
+  background-color: #000;
+  color: #fff;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  margin:auto;
+  border-bottom: solid 2px #fff;
+  text-transform: uppercase;
+
+}
+
+/*para q no se muestre un elemento _ display:none;*/
+
+.banner{
+  display: none;
+}
+
+/*si un h2 esta adentrp de productos entonces pasa algo*/
+.product{
+  margin-top: 20px;
+}
+.product h2{
+  font-size: 1.8em;
+  font-weight: 500;
+
+}
+
+
+.product p{
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+/*siempre que quiero hacralgo con el enlace es con inline-block / lo vamos a poner en la regla general*/
+.product a{
+  background-color: #000;
+  color:#fff;
+  font-size: 1.2em;
+  padding: 0.8em 1em;
+}
+
+.main-footer{
+  background-color: rgb(221, 85, 82);
+  border-radius: 6px 6px 0 0;
+  margin-top: 10px;
+}
+
+.main-footer a{
+  background-color: transparent;
+}
+
+
+/*tablet
+float:left >> ponerle el overflow/ 0.83% es el porcentualde los 20px de margen*/
+
+@media (min-width:600px){
+  .body{
+    font-size: 5px;
+  }
+  .container{
+    width:100%;
+    max-width:1200px;
+  }
+  .main-nav{
+    overflow:hidden;
+  }
+  .main-nav li{
+    width: 15%;
+    float:left;
+    margin:0 0.83%;
+  }
+  .banner{
+    display: block;
+    margin: 30px 0.83% 0;
+  }
+  .product,
+  .main-footer{
+    margin-left: 0.83%;
+    margin-right: 0,83%;
+  }
+/*si el total es el 100% y esty ocupando de esos 100% _por los margenes un 3.32% : la caja para que encastren los 2 prodcutos es: 100-3.32%= 36.68 /2= lo cual me da 48.30%( pordos porque es la mitad)*/
+  .vip-products{
+    overflow: hidden;
+  }
+  .product{
+    width: 48.30%;
+    float:left;
+  }
+}

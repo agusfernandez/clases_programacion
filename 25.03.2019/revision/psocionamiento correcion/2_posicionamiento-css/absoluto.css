@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	border: dashed 3px red;
+	padding-top: 110px;
+	position: relative; /* para que contenga las cajas con P.A. */
+}
+
+.box01,
+.box02,
+.box03,
+.box04 {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	border: solid 1px black;
+	position: absolute;
+}
+
+.box01 {
+	background-color: rgb(200, 154, 215);
+	left: 0;
+	top: 0;
+}
+.box02 {
+	background-color: rgb(215, 206, 154);
+	right: 0;
+	top: 0;
+}
+
+.box03 {
+	background-color: rgb(200, 215, 154);
+	right: 0;
+	bottom: 0;
+}
+
+.box04 {
+	background-color: rgb(80, 86, 231);
+	left: -20px;
+	bottom: -20px;
+}
+
+.black-box {
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -10px;
+	margin-left: -10px;
+
+	/* los márgenes son para corregir la posición de la caja y que así quede completamente en la mitad */
+}

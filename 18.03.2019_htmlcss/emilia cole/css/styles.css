@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+
+.menu-index{
+  font-family:Raleway;
+  text-transform: uppercase;
+  font-size: 15px;
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  width: 200px;
+  text-decoration: none;
+  color:#D5D3D3!important;
+
+}
+
+
+h2{
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: bottom left;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 200px;
+}
+
+h3{
+  font-family: Raleway;
+  text-transform: uppercase;
+  text-align: right center;
+  font-weight: lighter;
+  position: bottom center;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: 150px;
+
+
+}
+
+i{
+  color: black;
+}
+
+
+/*elbackground-position:contain es valido */
+
+.bg-index {
+  background-image:url(../img/emilia-home.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-size: contain;
+
+}

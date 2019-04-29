@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	margin: auto;
+	width: 600px;
+	height: 1000px;
+	border: dashed 3px red;
+	margin-top: 100px;
+	position: relative;
+}
+
+.main-header {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(227, 148, 66);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	box-shadow: 0 0 20px #000;
+}
+
+/* Al aplicar P.A. y P.F. el elemento, asúme que no hay un width especificado, por lo tanto, si el contenedor no tiene contenido su ancho será igual a cero. */
+
+.chat-box {
+	width: 300px;
+	height: 350px;
+	background-color: rgb(132, 200, 64);
+	position: fixed;
+	right: 20px;
+	bottom: -300px;
+	border-radius: 10px 10px 0 0;
+	transition: 2000ms;
+}
+
+.chat-box:hover {
+	bottom: 0;
+	background-color: red;
+}

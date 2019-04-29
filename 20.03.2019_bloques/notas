@@ -1,0 +1,89 @@
+clase 4 / bloque
+
+
+>secciones: 
+semantico: div y article
+
+>section bloque grande 
+>article: bloques pequeños
+
+<div></div>
+<aarticle></article>
+no semantic: <pre></pre> / texto preformateado
+
+>block elemento de bloque 
+cuadrados / el contenido queda uno abajo del otro / el contenido es de bloque
+
+>interline> 
+le permite a otros elementos de linea que le permite ponerlos uno al lado del otro> ejemplo enlaces / en tanto y en cuanto no este en un p o en un li
+
+>interline-block > es una mezcla entre el bloque y el interline
+
+>dev-tools > herramientas de desarrollador >browser
+
+propiedad display> block; inline (evitarlo); inline-block (mejor); none / 4valores importantes
+
+display-block 
+> display none (no quiero que aparezcas hastq ue pase algo
+
+>flotacion> le da una capa mas oun nivel masy si le da esa propedad, permite compartir las mismas lineas tanto texto como el elemento que se le puse la propiedad float
+pdemso implementar estrctira que permite organizar las cajas para que las cajas queden organizados
+
+si le das la propiedad de floating se vuelve a semi-bloque 
+
+ver video de floating + css
+
+permite acomodar mejor los divs p estructurar mejor
+
+todo lo que no flota y esta por debajo de lo que se flota, entonces se va paraatras , nose va a ver>se soluciona con la propiedad clear: none
+
+clear: both/ si hay algo arriba del elemento que flote, etnonces lo pone de forma automatica debajod e ellos
+
+
+> overflow > propiedad que permite controlar los elementos que esten dentro del container / que no se "rebalse" 
+le tengo que indicar al container que adentro hay cajas flotantes para que las contenga mejor asi > selo tenog que aplicar al padre directo de los elementos flotantes
+
+necesita tener overflow: hidden; todo lo que contenga quelo haga y evita que por un algun motivo un scroll
+
+
+>propiedades de css
+
+width: 900px;
+height: 232px;
+
+>padding relleno / va a aumentar una caja si se le pone padding / si quiero un tamaño en particular de caja debo tomar en cuenta que el padding suma de acuerdo a los pixles que le agregue
+
+shorthand podemos especificar cuanto pixeles quiero que tenga cada padding
+primer valor arriba y abao (y) y despues x ( los costados
+
+padding: 20px 10px 2px 6px;
+top-right bottom left
+
+si pongo dos valores (arriba/ abajo ---costados)
+
+el relleno se suma a las dimensiones
+
+vadel borde hacia adentro
+
+>border
+
+shorthand
+border: solid 5px red;
+
+tmb suma en el tamaño y a la dimension
+
+> margin > distacianmiento entre elementos 
+no suma al tamaño pero ocupa en el espacio
+osea solo distancia o mueve el elemento no hace lacaja o algo mas grande o sumar o restar pixeles
+
+el inline-block genera 5px de distacionamiento y no te queda encajado como con el floating
+
+>box sizing > te permite 
+
+boxsizing: border.box; // no se cuenta el margen sino que esta afuera de la propiedad >te va a permitir no hacer sumas o restaasa 
+
+le puedo hacer universal
+
+*{
+	box-sizing:border-box
+}

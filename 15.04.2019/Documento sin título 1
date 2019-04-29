@@ -1,0 +1,40 @@
+php bucles
+
+-while / do while > en algun momento se tiene q cortar sino cae en un bucle infinito
+-for each > me ayuda a recorrer un array
+-keywords> exit / corta el php
+break > en caso de un bucle lo corta del todo
+continue> saltea en donde lopongo la condicion/ osea sigue el bucle
+return > lo mismo que el break > se utliza en funcones
+
+funciones
+>ejecucion llamado de la fucnion > definir que la funcion se ejecute
+las funciones siempre deben devovler algo > el eco va afuera de la funccion?
+
+>definicion
+>ejecucion
+
+-function
+
+es una funcion porq lleva ()
+hayq  pasarle los parametros 
+los valores por default van al final/ asi toma elvalor por default
+
+scope>el alcance de una variable
+global y local
+nunca la funcion va a buscar algo por fuera pero no seria necesario si lopaso como parametro
+
+>global me marca si esta en el ambito global y si esta globalmente ahi si me aparece/ de esta forma lo puedo modificar desde cualquier lugar/ busca en todos los archivos vinculados
+
+>locales: se crean dentro de la funcion 
+
+++$a / incrementa antes de devolver
+>static : permite almacenar el dato que tengo  para poder subirlo ( en caso de que lo necesite sumar oloque sea) / esto ocurre siempre y cuando sea local
+mantengo el ultimo valor de la variable 
+
+
+
+
+php embebido > html + php
+
+

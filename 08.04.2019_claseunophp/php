@@ -1,0 +1,80 @@
+
+php
+
+es un lenguaje > revisar al carpeta del xammp > carpeta htdocs
+request / response
+
+> el arcgivo php lo tengo q guardar en la carpeta php 
+
+> lenguaje > extension php SI O SO
+peroa dentro puede tener la estrucutra de un html
+
+<?php
+	echo( imprimir en pantalla)
+	echo date("Y-m-d")
+?>
+
+hay veces qye no es necesario poner todo el codigo html ,va a depender de la situacion
+
+localhost/carpeta > si haces clicl en la carpeta aparece el archivo
+
+
+<aṕache preprocesa la informacion
+
+variables es un espacio en memoria > para acceder a esos datos sin estar codeando/ puede cambiar o no
+<?php
+?>
+
+var_dump > es otra funcion armada por el lenguaje que espera que vs le des algo >mosrtarte la informacion de lavariable > ejemplo string y cantidad de letras + el valor de ese dato
+
+ tipos de datos
+>strings
+>integer numeros
+>float decimal 1.1
+
+concatenizacion . .
+caundo no se quiera concatenar
+
+<?php
+
+echo $nombre . " " . $apellido;
+echo "$ombre $apellido"; / concatenera
+echo '<strong> $nombre $apellido </strong>';
+
+?>
+
+comilla simple> lo rendreiza como texto
+comilla doble > podes poner adentro la variable + string
+
+>array / con corchetes
+
+$saludos= [];
+$saludos[0]="Hola"; > en la posiciio  0 aparece hola
+
+echo "<pre>"; / pre te mantiene el formato que tengas adentro
+print_r($miArray);
+
+> t devuelve la informacion de que tiene el array> var_dump
+
+//cuando no quiero definir la posciion del array entonces no poner numero adentro de los corchetes
+
+> un array denrto de un array
+
+$saludos=[];
+$saludos[0]="HOla!";
+$saludos[1]="by";
+
+$saludos[1][3]="bye";
+$saludos[1][4]="faof";  /// dentro delarray 1 > tengo otro array
+$saludos[1][5]="afkjs";
+
+array asociativos > el paramentro no es posicion o algo sino que es en posiciion string o "marca"
+lo podemos crear sin repetir la variable 
+
+$miAuto=[
+"color"=>["negro","verde"],
+"marca"=>"Ford;
+"modelo=>
+
+
+el array vacio simpre es la posicion numerica / seva a agregar en la utima posicion numrica

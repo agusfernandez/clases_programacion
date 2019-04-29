@@ -1,0 +1,81 @@
+
+Repaso 18 de marzo de 2019
+
+>>>>Rutas
+1)enlaces externos> si quiero que un enlace se abra en otra pantalla tengo que agregar el atribito target
+
+<a href="google.com" target="_blank"> google </a>
+
+2)enlaces internos
+
+<a href="contacto.html" target="_blank"></a>
+
+3) ancla / enlace local y el numeral me dice que hay un id o un ancla
+
+<a href="#bio">ver mi biografia</a>
+aca hay mucho texto
+<h2 id="bio">biografia</h2>
+
+esto me permite saltar de forma automatica y mas rapida a una parte de la seccion o de la pagina que quiero llegar
+
+4) mailto / tel
+
+<a href="mailto:agustina.fer@gmail.com">mail</a>
+<a href="tel:48657921">telefono</a>
+
+rutas volver a un lugar
+
+../images/perritos.jpg
+
+5) imagenes > <img src="perritps.jpg" alt="perritos">
+
+6)iframes > contenido multimedia
+<video src="multimedia/video.mp4" controls>
+  <source src="kdmskds.mp4" type=video/mp4></source>
+  <p>En internet explorer no funciona</p>
+</video>
+
+<audio></audio>
+
+7) color > 255 es el maximo valor en rgb
+
+rgb(255,255,255) > blanco
+rgb(0,0,0)> negro
+
+rgba > opacidad > 0_ no hay opacidad
+                  0,5 _mitad de opacidad
+
+body {
+  opacity:0,5;
+  background-image:url(../image/textura.jpg);
+  background-repeat: repeat;
+  background-position:center center; (son dos porq una es x y otra es y)
+  background-attachment:fixed; //la imagen se queda estatica y no se mueve mientras se scrolea
+  background-size: cover;// que ocupe todo el ancho del fondo
+}
+
+>repeat-x queno se repita
+
+si quiero escribir todo esto en una linea tiene qe estar junto la position/ size (juntas y separadas por una barra )
+
+background: fixed url(../image/textura.jpg) repeat rgba(40,82,09) center center/ cover
+>> ojo con poner los tamaños justos de las iamagenes porqu las pantalals no son todas iguales
+
+
+8) tags semanticas
+>em
+>strong
+
+le da las jerarquias y ayuda a google
+
+<img src="img/emilia-home.jpg" alt="emilia clarke" emilia>
+
+9)hover
+
+se puede especificar a q ponerle el hover si es el hijo de algo
+> ser selectivos
+selector descendente
+
+.navbar-home li a-hover // le hago el <hover> a la etiqueta a que esta en <li> y que sta en <navbar-home>
+
+proxima clase > box model >leer

@@ -1,0 +1,79 @@
+
+
+clase 
+
+transform: traslate(-50%); / el 50% del tamaño del elemento / cuanto mide la caja roja? 80 bueno me lo mueve a 40osea por la mitad.
+
+cuidado con el orden de lo que indico en el css_--> primero orden y despues estilos
+
+>medidas absolutas y relativas
+- aboslutas: nuemro en pixel / nunca cambian
+-realativa: cambia depende de su contenido >responsive
+
+>responsive
+
+1) estrategia de contenidp
+2) desarrollar la estructura de la web> mobile first> ir de los tamaño mas chico  a lo mas grande 
+
+reglas para renderizar desed paginas y desde telefono
+
+3) para que los sitios web se adapaten necesitamos implmentar la etiqueta <meta>viewport
+
+name=viewport
+content_ copiar y pegar/ el contenido de esta pagina vaa tener u ancho de acuerdo al dispositivo
+ esta etiquta va en el header
+
+medida relativa_ %
+no puede superar el 100% porq si lo supera se vade tamaño
+
+max-width:1200px
+/ dejar el width asi cuando cambie le contenedor cambie, alscajaascambien y pueden llegar a ese tope
+
+los margenes los unicos valores que pueden ir en pixeles son los verticales / top y bottom
+left y right en porcetajes
+
+---> viewports measures: vw/vh  > refernecia es el viewport es el vanegador. es donde carga la pafina sin contar la barra de navegacion. o lo de abajo > osea solo lo que pase adentro
+
+>whatismyscreenresolution.net
+
+es la medida que me da que se visualiza el sitio web
+esto se lo das al elemento no al contenedor pp
+
+>tipografia no darle tamaños en pixeles
+mecanismo de control para manipular su tamaño
+
+-em unidad de medida tipografica
+1em=16px
+
+unidad base es de 16 px
+> las herencias siempre se fijan el herederos/ 
+si cambio el body automativamente cambia por el em
+usarlo en tipografia
+
+----> las media queries
+reglas que agrupan reglaspara css
+
+puero hacer que en tal tamaño x, que cambie d eclor o que se reorganice de otra forma por ejemplo que se ponga una debajo del otro
+>css
+
+min-with / su como minimo te dejo hacer esto> desde el celular al desktoo
+man-with > des desktp a mobile
+
+>tests a ls uqe viene 
+
+desde la resolucion pequeña a mas grande
+
+> tambien se pued hacer por orientacion > portrait y landscape
+referencia
+minwidth > 568px
+min-widtg>768px
+min-width>1200px
+
+porlo general las mediaquerias solo se ponen los CAMBIOS / que hereda de los primeras bajadas
+
+margin-auto > ayuda a centrar al container automaticamente
+
+
+
+
+

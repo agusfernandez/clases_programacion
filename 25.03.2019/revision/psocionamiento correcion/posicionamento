@@ -1,0 +1,53 @@
+clase 5Htmly csss
+
+repaso de la clase anterior
+
+>normalizar: que se vea todo igual entodos los dispositivos y navegadores.
+
+normalize.css
+
+@import url(normalize.css)
+
+https://necolas.github.io/normalize.css/
+
+hacer que mi sitio se vea exactamente igual en todos los navegadores.
+
+1) posicionamiento > desplazar un elemento a un lugar donde quiera
+
+posicionamiento fijo desplazar el elemento de una ubicacion originala o una ubicacion diferente.
+
+relativo> permite trasladar un elemento desde su posicion original a una nueva posiicion peor tomando como referente sobre sus propios costados > el elemento se ubica en una capa por encima de donde estaba originalmente. sinembargo vs la flortacion, no su ubican en la misma capa / va  a ocupar una unica capa vs la flotacion todos se ubicaban en la misma capa o plano.
+
+sale de una capa / los elementos que estaen por fuera del relativo no lo afecta en cambio el d flotacion se va para atras
+
+....propiedades / vana desplzar a ese elemento en funcion desus costados propios de la ubicacion original
+
+left: 50px;
+
+osea de la ubicacion original lo va a mover 50px
+
+
+>fixed_ parecido al absolute. siempre se ubica respecto a al ventana
+
+es fjo
+
+>z-index >permite cambiar el orden de las capas / permite reordenar el orden de las capaz o darle una prioridad sobre ese layer
+
+cuanto mas alto sea el numero q se lo ponga a un elemento entonces gana en el rden de la capaz
+podems aplicar numero negativos
+
+left: 50px;  =  right:-50px; / depende desde donde empuje la caja
+
+
+
+absolute> toma como referente los costados del body vs relativose desplaza deavuerdo a su ubicacion
+
+contenedor: position relative /para que los elementos se ubiquen de forma absoluta al contenedor y no al vbody /  > en este caso se ubicaria de acuerdo al contenedor y no al body
+
+el absoluto se pone por deltante del margen no le parecen importatnes
+
+>no exagerar el poscionamiento absoluto
+> va osicionasvce de acuerdo a la ventana del navegador 
+
+
+

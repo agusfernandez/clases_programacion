@@ -1,0 +1,70 @@
+git
+antesde comenzar a laburar hacer un pull
+
+php
+
+> condicionals
+
+if> false= false/null / 0 /string vacio ""/ arrayvacio []>datos que evaluan como falso
+>true= true/ 1 / "3nr"/ 
+
+count _ funcion nativ y cunea la cantidad de elementos de un array en php >parecido al .length de javascript
+
+operadores
+
+= asignando/ asignacion
+== comparando igualdad / compara el valor no el tipo de dato
+===comparacion de igualdad estricta /evalua el valory el tipode dato
+!= distinto / estas comparando valores
+! negacion
+|| comparacion logica / si el dia es igual a sabado o si el dia es igual es domingo / me sirve q uno sea verdadeo
+&& me sirve q los dos sean verdadeos / para que me de verdadero se tienen q cumplor los dos true
+
+!$soletera / no es soltera / si es flaso que se cumpla con una condicion
+else if //
+
+un if ssolo puede tenr un solo else peor puede hacer else if
+
+$esArgentino = flase;
+if(!$esArgentino){
+	echo "Anda a migraciones";
+} else {
+echo "es argentino"
+}
+// si quiero saber cuales no son argentinos puedo negar para uqe mede la rta
+
+si no es argentino> que vaya a migraciones / si quiero captar el escenario que se falso entonces negarlo
+
+si no tiene mail entonces no entra
+neigo para que me de el if y evitarme el else / codigo al pedo sin
+
+else if / te permite evaluar diferentesestados o escenarios / tepermite evaluar y ser mas especifico enconjunto
+
+if($soltera){
+	$personasSolteras++ // sumo uno incremento / si es soltera entonces suo la cantidad de solteras q haya
+
+
+
+> IF TERNARIO / ESCENARIO ELSE
+
+CONDICION ?TRUE:FALSE; // : CONDICION / NO TIENE ELSE
+
+forma abreviada de un if
+
+=esmayor almacena alguno de los dos strings
+el echo es antes al pp y no cuando pones la condicion
+
+$edad=18;
+
+  $esmayor=$edad>=18 ? "si es mayor" : "no es mayor";
+
+  echo $esmayor;
+
+la edad es 18
+si la edad mayor es mayor que 18 entonces es mayor sino es menor
+
+
+>switch 
+necesitamos una palabra clave llamda break
+vita la ejeucion del resto de los breaks y salta a la llave final
+
